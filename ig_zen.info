@@ -46,7 +46,9 @@ core        = 7.x
 stylesheets[all][] = system.menus.css
 
 ; Then we add our own stylesheets.
-stylesheets[all][] = css/boostrap.min.css
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/bootstrap-responsive.min.css
+stylesheets[all][] = css/ig.css
 
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
@@ -62,8 +64,8 @@ stylesheets[all][] = css/boostrap.min.css
 
 
 ; Optionally add some JavaScripts to your theme.
-
-scripts[] = js/bootstrap.js
+scripts[] = js/jquery-1.8.0.min.js
+scripts[] = js/bootstrap.min.js
 
 
 
@@ -86,11 +88,16 @@ regions[header]         = Header
 regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
 regions[help]           = Help
+regions[clubs]          = clubs
 regions[content]        = Content
 regions[sidebar_first]  = First sidebar
 regions[sidebar_second] = Second sidebar
 regions[footer]         = Footer
+regions[front_col1]     = Front col 1
+regions[front_col2]     = Front col 2
+regions[front_col3]     = Front col 3
 regions[bottom]         = Page bottom
+
 
 ; The page_top and page_bottom regions are hidden, which means they will not
 ; show up on the blocks administration page. But they are required in order for
