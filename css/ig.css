@@ -1,0 +1,25 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+nav#main-menu {
+	font-size: 1.5em;
+	margin-top:1em;
+}
+
+
+.backer {background-color: #000;
+		width:100%;}
+
+.backer2 {
+	background-color: #EFEFEF
+}
+
+nav#main-menu a{
+}
+
+.container .home {margin-top:20px;}
+
+.backer {margin-top:20px;}
+
+.field-items img {float:left; margin:5px 5px 5px 0px;}
